@@ -8,8 +8,8 @@ services:
     restart: always
     environment:
       - POSTGRES_DB=db
-      - POSTGRES_USER=db
-      - POSTGRES_PASSWORD=9mREsvXDs9Gk89Ef
+      - POSTGRES_USER=somebody
+      - POSTGRES_PASSWORD=012345
     volumes:
       - ./data:/var/lib/postgresql/
     ports:
